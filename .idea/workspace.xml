@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa6647a-7019-49c4-b357-b8e9173fad36" name="Default Changelist" comment="" />
+    <list default="true" id="9fa6647a-7019-49c4-b357-b8e9173fad36" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Tariq Salim\WebstormProjects\TariqBot\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1bYJuyew62xGXydkxQVYcFzwA2S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588803319688</updated>
       <workItem from="1588803323964" duration="2314000" />
-      <workItem from="1589223783764" duration="7362000" />
+      <workItem from="1589223783764" duration="8539000" />
     </task>
     <servers />
   </component>
