@@ -5,7 +5,7 @@ body {
     font-weight: 400;
     line-height: 1.6;
     background-color:green;
-    background-image: url("TariqToon2.jpeg");
+    /*background-image: url("TariqToon2.jpeg");*/
     background-repeat: no-repeat;
     background-position: left top;
     margin-right: 200px;
@@ -35,10 +35,10 @@ body {
     align-items: center;
 }
 
-.img-container img{
-    width: 200px;
-    height: 500px;
-}
+/*.img-container img{*/
+    /*width: 200px;*/
+    /*height: 500px;*/
+/*}*/
 
 .tweet-content{
     color: #201b29;
@@ -95,4 +95,13 @@ footer {
     font-size: 14px;
     text-align: center;
     color: white;
+}
+
+.cartoon{
+    width: 100%;
+}
+
+#user-image{
+    height: 200px;
+    width: 200px;
 }

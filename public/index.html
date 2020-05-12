@@ -8,62 +8,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
 
 </head>
 <body>
 
-<div class="container" style="text-align: center">
-    <div class="row">
-        <button class="btn btn-primary" disabled>
-            <span class="spinner-grow spinner-grow-sm"></span>
-            Finding Trend!!..
-        </button>
-    </div>
-</div>
+
 
 <div class="container" style="margin-left:50px">
+
     <div class="row">
-        <div class="card">
-            <div class="card-body">
-                <div class="col-sm-4">
-                    <div class="img-container">
-                        <h2>About Me</h2>
-                        <h5>Photo of me:</h5>
-                        <img id="image" src="TariqToon2.jpeg"/>
-                    </div>
+        <div class="col-sm-12">
+              <button class="btn btn-primary">
+                        <span class="spinner-grow spinner-grow-sm"></span>
+                        Finding Trend!!..
+              </button>
+
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-4">
+
+            <div class="card">
+                <div class="card-body">
+                            <h2>About Me</h2>
+                            <h5>Photo of me:</h5>
+                            <img class="cartoon"  src="TariqToon2.jpeg"/>
                 </div>
             </div>
+
         </div>
 
         <div class="col-sm-8">
             <div class="tweet-container">
                 <div class="tweet-handle-container">
-                    <div class="tweet-handle-image">
-                        <h2>TITLE HEADING</h2>
-                        <h5>Title description, Dec 7, 2017</h5>
-                        <img id="user-image" src="https://st2.depositphotos.com/4284329/8270/v/950/depositphotos_82700158-stock-illustration-event-agency-logo.jpg" />
-                    </div>
-                    <div class="tweet-handle-name">
-                        <p id="user-name">Twitter Stream</p>
-                        <p id="user-description">Using twitter stream API</p>
-                    </div>
+
+                    <div class="row">
+
+                        <div class="col-sm-12">
+                            <h2 id="user-name"></h2>
+                            <p id="user-description"></p>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <div class="tweet-handle-image">
+
+
+
+                                <img id="user-image" src="https://st2.depositphotos.com/4284329/8270/v/950/depositphotos_82700158-stock-illustration-event-agency-logo.jpg" />
+                            </div>
+
+
+
+                            <div class="tweet-content" id="content">
+                                Let the tweets slide one by one
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-12">
+                            <img height="200" width="200" id="image">
+                        </div>
+
                 </div>
 
-        </div>
+
+
+            </div>
+
 
     </div>
 
 
-        <div class="tweet-content" id="content">
-            Let the tweets slide one by one
-        </div>
 
-    </div>
+
 </div>
 <footer>
     Bird's Eye View Twitter Wall <3
